@@ -48,16 +48,30 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/resize.png
 about_content: | # this will include new lines to allow paragraphs
+  계속해서 배우고 싶은 열정으로 부족 하거나 새로운것을 배우는것이 재미있는 곽민구입니다. 
+
   Q/A로 탄탄한 검증과, Field Engineer로 현장에 경험을 통해서 ML Engineer로 성장 하고싶은 곽민구 입니다. 
+
 
 content:
   - title: Employment # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: <br>(주)시스윈일렉트로닉스
+        link: http://www.syswin.co.kr/html/
+        sub_title: Python, C++, Linux
+        caption: 2020.5 ~ 2021.08
+        # link_text: boringcompany.com
+        quote: >
+          Field Engineer, Tester(H/W, S/W)
+        description: | # this will include new lines to allow paragraphs
+            - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br>
+
+      - layout: left
         title: <br>(주)오토소프트
         link: https://blog.naver.com/autosoft2012
-        sub_title:  Python, C/C++, Linux, Embedded<br>CAN, PySide2, PyQt5, MISRA C,
+        sub_title:  Python, C/C++, Linux, Embedded<br>CAN, PySide2, MISRA C,
         caption: 2017.10 ~ 2020.03
         # link_text: boringcompany.com
         quote: >
@@ -69,21 +83,27 @@ content:
             - SWDR 리포트 업무 자동화 프로그램 제작 
             - 자동차 Gen3, Gen4 Model Audiot S/W QA<br><br>
 
-      - layout: left
-        title: <br>(주)시스윈일렉트로닉스
-        link: http://www.syswin.co.kr/html/
-        sub_title: Python, C++, Linux
-        caption: 2020.5 ~ 2021.08
-        # link_text: boringcompany.com
-        quote: >
-          Field Engineer, Tester(H/W, S/W)
-        description: | # this will include new lines to allow paragraphs
-            - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br><br>
-
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: <br>Final Project<br>간편한 식단관리 FoodLog
+        sub_title: 부스트캠프 AI Tech 2기
+        link: https://boostcamp.connect.or.kr/
+        caption: 2021.12 ~ 2021.12
+        additional_links:
+          - title: 간편한 식단관리 FoodLog
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/final-project-level3-cv-09
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공
+          - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표를 확인하는 코드 추가
+          - <mark>Wandb</mark>를 통해서 모델 결과 관리, Augmentation을 분석 함
+          - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br>
+
       - layout: left
         title: <br>National Pathology Health Datathon 2021
         sub_title: 국립암센터, Nphd2021
@@ -96,10 +116,10 @@ content:
         quote: >
           세포 병리 이미지에서 양성, 음성을 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
-          - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공하여 참여
-          - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표로 활용한 코드 추가
-          - <mark>Wandb</mark>를 통해서 모델 결과 관리, 이미지를 분석 함
-          - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br><br>
+          - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공
+          - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표를 확인하는 코드 추가
+          - <mark>Wandb</mark>를 통해서 모델 결과 관리, Augmentation을 분석 함
+          - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br>
 
       - layout: left
         title: <br>재활용 품목 분류 Semantic Segmentation
@@ -114,7 +134,7 @@ content:
           재활용품 사진에 대해서 10개의 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
           - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)으로 Competition에 참여
-          - 제공되는 Optimizer 대신에 최근 논문에 기재된 Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br><br>
+          - 제공되는 Optimizer 대신에 최근 논문에 기재된 Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br>
       
       - layout: left
         title: <br>재활용 품목 분류 Object Detection
@@ -131,7 +151,7 @@ content:
           재활용품 사진에 대해 10개의 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
           - [MMDetection](https://github.com/open-mmlab/mmdetection)으로 Competition에 참여
-          - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br><br>
+          - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br>
 
       - layout: left
         title: <br>마스크 착용 상태 분류
@@ -154,10 +174,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: <br>패스트 캠퍼스<br>수학적으로 접근하는 딥러닝
+        caption:  2021.12 ~ 2021.12
+        link: https://fastcampus.co.kr/data_online_mathdeep
+        quote: >
+          딥러닝, 회귀 모델
+        description: | # this will include new lines to allow paragraphs
+          - 딥러닝을 진행하면서 수학에 대한 이해없이 바로 코드를 활용하여 수학적으로 접근해보고자 참여<br>
+
+      - layout: left
+        title: <br>인프런<br>머신러닝 엔지니어 실무
+        caption:  2021.08 ~ 2021.10
+        link: https://inf.run/y1MY
+        quote: >
+          MLOps, Wandb, Docker, Kubeflow
+        description: | # this will include new lines to allow paragraphs
+          - Deep Learing을 배우면서 리서치보다 엔지니어가 흠미가 있어 참여
+          - Kubeflow, mlflow, bentoML에 대해 이해함<br>
+
+      - layout: left
         title: <br>네이버 커넥트재단 부스트캠프<br> AI Tech 2기
         caption:  2021.08 ~ 2021.12
         link: https://boostcamp.connect.or.kr/
-        sub_title: 
         quote: >
           Deep Learning, Computer Vision, MLOps
         description: | # this will include new lines to allow paragraphs
@@ -165,7 +203,7 @@ content:
           - <mark>Object-Detection</mark> Competition
           - <mark>Semantic Segmentation</mark> Competition
           - Optimization Competition
-          - Product Serving - <mark>MLOps</mark>
+          - Product Serving - <mark>MLOps</mark><br><br>
 
   
   - title: Skill & License
@@ -181,7 +219,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Pytorch
           - Git, DVC, Kubeflow
-          - Kubernetes, Docker, BentoML
+          - Kubernetes, Docker, bentoML
 
       - layout: left
         title: Library
