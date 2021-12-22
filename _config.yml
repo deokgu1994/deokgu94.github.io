@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Mingu Kwak
+title: MLOps Engineer & ML Engineer
+email: onefence1994@gmail.com
+website: deokgu94.tistory.com
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  deokgu94
+facebook_username: "100074860842312"
+instagram_username: deokgu94
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: Portfolio
+  icon: fas fa-paperclip
+  url: https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,74 +46,157 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/resize.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Q/A로 탄탄한 검증과, Field Engineer로 현장에 경험을 통해서 ML Engineer로 성장 하고싶은 곽민구 입니다. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
+  - title: Employment # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: <br>(주)오토소프트
+        link: https://blog.naver.com/autosoft2012
+        sub_title:  Python, C/C++, Linux, Embedded<br>CAN, PySide2, PyQt5, MISRA C,
+        caption: 2017.10 ~ 2020.03
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          S/W Engineer, S/W QA
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - AMP code 개발
+            - **MDPS 고장 진단 테스트 자동화 프로그램 제작**
+            - MDPS Gen3, Gen4 Modle Flash Tun 생성 코드 개발 관리
+            - SWDR 리포트 업무 자동화 프로그램 제작 
+            - 자동차 Gen3, Gen4 Model Audiot S/W QA<br><br>
+
+      - layout: left
+        title: <br>(주)시스윈일렉트로닉스
+        link: http://www.syswin.co.kr/html/
+        sub_title: Python, C++, Linux
+        caption: 2020.5 ~ 2021.08
+        # link_text: boringcompany.com
+        quote: >
+          Field Engineer, Tester(H/W, S/W)
+        description: | # this will include new lines to allow paragraphs
+            - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br><br>
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      # - layout: left
+      #   title: <br>(주)시스윈일렉트로닉스
+      #   link: http://www.syswin.co.kr/html/
+      #   sub_title: Python, C++, Linux
+      #   caption: 2020.5 ~ 2021.08
+      #   # link_text: boringcompany.com
+      #   quote: >
+      #     Field Engineer, Tester(H/W, S/W)
+      #   description: | # this will include new lines to allow paragraphs
+      #       - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br><br>
+
+      - layout: top-middle
+        title: 재활용 품목 분류를 위한 Semantic Segmentation
+        caption: 2021.10 ~ 2021.11
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: 재활용 품목 분류를 위한 Semantic Segmentation
+            icon: fab fa-github
+            url: https://github.com/deokgu/semantic-segmentation-level2-cv-09
+        quote: >
+          Semantic Segmentation을 주제로 재활용품 사진에 대해 10개의 클래스 분류
+        description: | # this will include new lines to allow paragraphs
+          - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)으로 Competition에 참여
+          - 제공되는 Optimizer 대신에 최근 논문에 기재된  Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br><br>
+      
+      # - layout: top-middle
+      #   title: 재활용 품목 분류를 위한 Object Detection
+      #   caption: 2021.9 ~ 2021.10
+      #   # link: github.com/sproogen
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title: 재활용 품목 분류를 위한 Object Detection
+      #       icon: fab fa-github
+      #       url: https://github.com/deokgu/object-detection-level2-cv-09
+      #   quote: >
+      #     Image Object Detection을 주제로 재활용품 사진에 대해 10개의 클래스 분류
+      #   description:  # this will include new lines to allow paragraphs
+      #     - [MMDetection](https://github.com/open-mmlab/mmdetection)으로 Competition에 참여
+      #     - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br><br>
+
+      # - layout: top-middle
+      #   title: 마스크 착용 상태분류
+      #   caption: 2021.8 ~ 2021.09
+      #   # link: github.com/sproogen
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title:  마스크 착용 상태분류
+      #       icon: fab fa-github
+      #       url: https://github.com/deokgu94/image-classification-level1-23
+      #   quote: >
+      #     Image Classificattition을 주제로 Mask, Age, Gender 착용 유무
+      #   description: | # this will include new lines to allow paragraphs
+      #     - [pytorch-template](https://github.com/victoresque/pytorch-template)을 수정하여 <mark>Stratified k-fold</mark>, <mark>Multi-label</mark> 추가, 프로젝트에 base로 사용 및 최종 제출<br><br>
+
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: <br>네이버 커넥트재단 부스트캠프<br> AI Tech 2기
+        caption:  2021.08 ~ 2021.12
+        link: https://boostcamp.connect.or.kr/
+        sub_title: 
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Deep Learning, Computer Vision, MLOps
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - <mark>Image Classfication</mark> Competition
+          - <mark>Object-Detection</mark> Competition
+          - <mark>Semantic Segmentation</mark> Competition
+          - Optimization Competition
+          - Product Serving - <mark>MLOps</mark>
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  
+  - title: Skill
+    layout: list
+    content: # this will include new lines to allow paragraphs
+      - layout: top-middle
+        quote: >
+          업무에 사용했던 기술들입니다.
 
-  - title: A Little More About Me
+      - layout: left
+        title: MLOps & DevOps
+        # link_text: boringcompany.com
+        description: | # this will include new lines to allow paragraphs
+          - Pytorch
+          - Git, DVC, Kubeflow
+          - Kubernetes, Docker, BentoML
+
+      - layout: left
+        title: Library
+        # link_text: boringcompany.com
+        description: | # this will include new lines to allow paragraphs
+          - Jinja2, CAN
+          - Pandas, Numpys, Matplotlib
+
+      - layout: left
+        title: Language
+        description: | # this will include new lines to allow paragraphs
+          - Python
+          - C/C++      
+          - CAPL
+
+  - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
+      - [참조](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme0)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: False
 # references_title: References on request (Override references text)
 
 # Build settings
