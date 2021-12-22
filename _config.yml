@@ -84,61 +84,70 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      # - layout: left
-      #   title: <br>(주)시스윈일렉트로닉스
-      #   link: http://www.syswin.co.kr/html/
-      #   sub_title: Python, C++, Linux
-      #   caption: 2020.5 ~ 2021.08
-      #   # link_text: boringcompany.com
-      #   quote: >
-      #     Field Engineer, Tester(H/W, S/W)
-      #   description: | # this will include new lines to allow paragraphs
-      #       - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br><br>
+      - layout: left
+        title: <br>National Pathology Health Datathon 2021
+        sub_title: 국립암센터, Nphd2021
+        link: http://nphd2021.co.kr/
+        caption: 2021.11 ~ 2021.11
+        additional_links:
+          - title: B-Track(세포 병리이미지) Classification
+            icon: fab fa-github
+            url: https://github.com/deokgu94/data-ton
+        quote: >
+          세포 병리 이미지에서 양성, 음성을 분류하는 Competition
+        description: | # this will include new lines to allow paragraphs
+          - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공하여 참여
+          - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표로 활용한 코드 추가
+          - <mark>Wandb</mark>를 통해서 모델 결과 관리, 이미지를 분석 함
+          - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br><br>
 
-      - layout: top-middle
-        title: 재활용 품목 분류를 위한 Semantic Segmentation
+      - layout: left
+        title: <br>재활용 품목 분류 Semantic Segmentation
+        sub_title: 부스트캠프 AI Tech 2기  
         caption: 2021.10 ~ 2021.11
-        # link: github.com/sproogen
-        # link_text: Project Website
+        link: https://stages.ai/
         additional_links:
           - title: 재활용 품목 분류를 위한 Semantic Segmentation
             icon: fab fa-github
             url: https://github.com/deokgu/semantic-segmentation-level2-cv-09
         quote: >
-          Semantic Segmentation을 주제로 재활용품 사진에 대해 10개의 클래스 분류
+          재활용품 사진에 대해서 10개의 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
           - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)으로 Competition에 참여
-          - 제공되는 Optimizer 대신에 최근 논문에 기재된  Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br><br>
+          - 제공되는 Optimizer 대신에 최근 논문에 기재된 Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br><br>
       
-      # - layout: top-middle
-      #   title: 재활용 품목 분류를 위한 Object Detection
-      #   caption: 2021.9 ~ 2021.10
-      #   # link: github.com/sproogen
-      #   # link_text: Project Website
-      #   additional_links:
-      #     - title: 재활용 품목 분류를 위한 Object Detection
-      #       icon: fab fa-github
-      #       url: https://github.com/deokgu/object-detection-level2-cv-09
-      #   quote: >
-      #     Image Object Detection을 주제로 재활용품 사진에 대해 10개의 클래스 분류
-      #   description:  # this will include new lines to allow paragraphs
-      #     - [MMDetection](https://github.com/open-mmlab/mmdetection)으로 Competition에 참여
-      #     - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br><br>
+      - layout: left
+        title: <br>재활용 품목 분류 Object Detection
+        sub_title: 부스트캠프 AI Tech 2기  
+        caption: 2021.9 ~ 2021.10
+        link: https://stages.ai/
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: 재활용 품목 분류를 위한 Object Detection
+            icon: fab fa-github
+            url: https://github.com/deokgu/object-detection-level2-cv-09
+        quote: >
+          재활용품 사진에 대해 10개의 클래스 분류하는 Competition
+        description: | # this will include new lines to allow paragraphs
+          - [MMDetection](https://github.com/open-mmlab/mmdetection)으로 Competition에 참여
+          - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br><br>
 
-      # - layout: top-middle
-      #   title: 마스크 착용 상태분류
-      #   caption: 2021.8 ~ 2021.09
-      #   # link: github.com/sproogen
-      #   # link_text: Project Website
-      #   additional_links:
-      #     - title:  마스크 착용 상태분류
-      #       icon: fab fa-github
-      #       url: https://github.com/deokgu94/image-classification-level1-23
-      #   quote: >
-      #     Image Classificattition을 주제로 Mask, Age, Gender 착용 유무
-      #   description: | # this will include new lines to allow paragraphs
-      #     - [pytorch-template](https://github.com/victoresque/pytorch-template)을 수정하여 <mark>Stratified k-fold</mark>, <mark>Multi-label</mark> 추가, 프로젝트에 base로 사용 및 최종 제출<br><br>
-
+      - layout: left
+        title: <br>마스크 착용 상태 분류
+        sub_title: 부스트캠프 AI Tech 2기  
+        caption: 2021.8 ~ 2021.09
+        link: https://stages.ai/
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  마스크 착용 상태분류
+            icon: fab fa-github
+            url: https://github.com/deokgu94/image-classification-level1-23
+        quote: >
+          사람에 따른 마스트 이미지로 Mask, Age, Gender별 클래스 분류하는 Competition
+        description: | # this will include new lines to allow paragraphs
+          - [pytorch-template](https://github.com/victoresque/pytorch-template)을 수정하여 <mark>Stratified k-fold</mark>, <mark>Multi-label</mark> 추가, Base Code로 사용 및 최종 제출<br><br>
 
 
   - title: Education # Title for the section
@@ -159,7 +168,7 @@ content:
           - Product Serving - <mark>MLOps</mark>
 
   
-  - title: Skill
+  - title: Skill & License
     layout: list
     content: # this will include new lines to allow paragraphs
       - layout: top-middle
@@ -179,7 +188,7 @@ content:
         # link_text: boringcompany.com
         description: | # this will include new lines to allow paragraphs
           - Jinja2, CAN
-          - Pandas, Numpys, Matplotlib
+          - Pandas, Numpys, Matplotlib, Wandb
 
       - layout: left
         title: Language
@@ -187,12 +196,18 @@ content:
           - Python
           - C/C++      
           - CAPL
+      
+      - layout: left
+        title: License
+        description: | # this will include new lines to allow paragraphs
+          - ISTQB(CTFL)
+
 
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
       - [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
-      - [참조](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme0)
+      - 이력서 양식: [참조](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
 # Footer
