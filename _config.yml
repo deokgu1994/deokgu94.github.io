@@ -104,7 +104,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          - DVC를 <mark>통해 데이터 버전 관리</mark>
+          - DVC를 통해 <mark>데이터 버전 관리</mark>
           - 모델링
 
       - layout: left
