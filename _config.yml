@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Mingu Kwak
-title: MLOps Engineer & ML Engineer
+title: ML Engineer & MLOps Engineer
 email: onefence1994@gmail.com
 website: deokgu94.tistory.com
 
@@ -17,7 +17,7 @@ darkmode: never
 # Social links
 # twitter_username: facespics
 github_username:  deokgu94
-facebook_username: "100074860842312"
+facebook_username: "100076592190487"
 instagram_username: deokgu94
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -48,10 +48,15 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/resize.png
 about_content: | # this will include new lines to allow paragraphs
-  계속해서 배우고 싶은 열정으로 부족 하거나 새로운것을 배우는것이 재미있는 곽민구입니다. 
+  계속해서 좋은 코드, 빠른 코드를 작성하기 위해 찾고, 배우는것을 좋아하는 곽민구입니다.
+  <br><br>
 
-  Q/A로 탄탄한 검증과, Field Engineer로 현장에 경험을 통해서 ML Engineer로 성장 하고싶은 곽민구 입니다. 
+  저는 전장용 S/W QA로 시작해서 탄탄한 검증을 바탕으로 작성된 코드를 작성 및 보고 배우는게 재미있었습니다. 또한,
+  Field Enginneer로 사무실에서 확인 못하는 것들을 현장의 경험을 통해 많은 것을 배웠습니다.
+  이제 이 재미있는 것을 잘 활용해서 더좋은 프로그램 및 환경을 만드는 개발자가 되고 싶습니다. 
+  <br><br>
 
+  저는 AI 경량화, MLOps쪽에 관심을 가지고 있습니다. 
 
 content:
   - title: Employment # Title for the section
@@ -77,11 +82,11 @@ content:
         quote: >
           S/W Engineer, S/W QA
         description: | # this will include new lines to allow paragraphs
-            - AMP code 개발
+            - AMP Code 개발
             - **MDPS 고장 진단 테스트 자동화 프로그램 제작**
             - MDPS Gen3, Gen4 Modle Flash Tun 생성 코드 개발 관리
             - SWDR 리포트 업무 자동화 프로그램 제작 
-            - 자동차 Gen3, Gen4 Model Audiot S/W QA<br><br>
+            - 자동차 Gen3, Gen4 Model 오디오 S/W QA<br><br>
 
 
   - title: Projects # Title for the section
@@ -90,7 +95,7 @@ content:
       - layout: left
         title: <br>Final Project<br>간편한 식단관리 FoodLog
         sub_title: 부스트캠프 AI Tech 2기
-        link: https://boostcamp.connect.or.kr/
+        link: https://stages.ai/
         caption: 2021.12 ~ 2021.12
         additional_links:
           - title: 간편한 식단관리 FoodLog
@@ -99,10 +104,8 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공
-          - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표를 확인하는 코드 추가
-          - <mark>Wandb</mark>를 통해서 모델 결과 관리, Augmentation을 분석 함
-          - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br>
+          - DVC를 <mark>통해 데이터 버전 관리</mark>
+          - 모델링
 
       - layout: left
         title: <br>National Pathology Health Datathon 2021
@@ -173,14 +176,14 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: <br>패스트 캠퍼스<br>수학적으로 접근하는 딥러닝
-        caption:  2021.12 ~ 2021.12
-        link: https://fastcampus.co.kr/data_online_mathdeep
-        quote: >
-          딥러닝, 회귀 모델
-        description: | # this will include new lines to allow paragraphs
-          - 딥러닝을 진행하면서 수학에 대한 이해없이 바로 코드를 활용하여 수학적으로 접근해보고자 참여<br>
+      # - layout: left
+      #   title: <br>패스트 캠퍼스<br>수학적으로 접근하는 딥러닝
+      #   caption:  2021.12 ~ 2021.12
+      #   link: https://fastcampus.co.kr/data_online_mathdeep
+      #   quote: >
+      #     딥러닝, 회귀 모델
+      #   description: | # this will include new lines to allow paragraphs
+      #     - 딥러닝을 진행하면서 수학에 대한 이해없이 바로 코드를 활용하여 수학적으로 접근해보고자 참여<br>
 
       - layout: left
         title: <br>인프런<br>머신러닝 엔지니어 실무
@@ -202,7 +205,7 @@ content:
           - <mark>Image Classfication</mark> Competition
           - <mark>Object-Detection</mark> Competition
           - <mark>Semantic Segmentation</mark> Competition
-          - Optimization Competition
+          - <mark>Optimization</mark> Competition
           - Product Serving - <mark>MLOps</mark><br><br>
 
   
@@ -244,7 +247,7 @@ content:
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
+      - [CV](https://deokgu94.github.io/) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
       - 이력서 양식: [참조](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
