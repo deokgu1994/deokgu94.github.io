@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Mingu Kwak
-title: ML Engineer & MLOps Engineer
+title: ML Engineer & MLOps Engineer & QA Enginneer
 email: onefence1994@gmail.com
 website: deokgu94.tistory.com
 
@@ -48,15 +48,15 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/resize.png
 about_content: | # this will include new lines to allow paragraphs
-  계속해서 좋은 코드, 빠른 코드를 작성하기 위해 찾고, 배우는것을 좋아하는 곽민구입니다.
+  계속해서 좋은 코드, 빠른 코드를 작성하기 위해 찾고, 배우는 것을 좋아하는 곽민구입니다.
   <br><br>
 
-  저는 전장용 S/W QA로 시작해서 탄탄한 검증을 바탕으로 작성된 코드를 작성 및 보고 배우는게 재미있었습니다. 또한,
-  Field Enginneer로 사무실에서 확인 못하는 것들을 현장의 경험을 통해 많은 것을 배웠습니다.
-  이제 이 재미있는 것을 잘 활용해서 더좋은 프로그램 및 환경을 만드는 개발자가 되고 싶습니다. 
+  저는 전장용 S/W QA로 작성된 코드에서 버그를 찾아가며 탄탄한 검증을 통해 완성되어 가는 코드를 작성 및 보고 배우는 게 재미있었습니다.
+   또한, Field Engineer로 사무실에서 확인 못하는 것들을 현장의 경험을 통해 많은 것을 배웠습니다.<br>
+  이제 이 재미있는 것을 잘 활용해서 더 좋은 프로그램 및 환경을 만드는 개발자가 되고 싶습니다. 
   <br><br>
 
-  저는 AI 경량화, MLOps쪽에 관심을 가지고 있습니다. 
+  저는 AI 경량화, MLOps, Embedded에 관심 있습니다.
 
 content:
   - title: Employment # Title for the section
@@ -121,7 +121,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 이전에 작성하고 있던 Pytorch-Template를 수정하여 팀의 Base Code를 제공
           - Debug 모드를 통해서 빠르게 코드 에러 및 간단한 지표를 확인하는 코드 추가
-          - <mark>Wandb</mark>를 통해서 모델 결과 관리, Augmentation을 분석 함
+          - <mark>Wandb</mark>를 통해서 모델 결과 관리, Augmentation을 분석함
           - <mark>MultilabelStratifiedKFold</mark> 적용 후 사용<br>
 
       - layout: left
@@ -136,7 +136,7 @@ content:
         quote: >
           재활용품 사진에 대해서 10개의 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
-          - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)으로 Competition에 참여
+          - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)을 활용
           - 제공되는 Optimizer 대신에 최근 논문에 기재된 Optimizer(RAdam, AdamP)를 사용하여 성능 향상에 기여<br>
       
       - layout: left
@@ -153,8 +153,8 @@ content:
         quote: >
           재활용품 사진에 대해 10개의 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
-          - [MMDetection](https://github.com/open-mmlab/mmdetection)으로 Competition에 참여
-          - 제공되는 모델 대신에 조금더 큰 데이터에 Pretrained된 모듈을 사용해서 성능 향상에 기여<br>
+          - [MMDetection](https://github.com/open-mmlab/mmdetection)을 활용
+          - 제공되는 모델 대신에 조금 더 큰 데이터에 Pre trained 된 모듈을 사용해서 성능 향상에 기여<br>
 
       - layout: left
         title: <br>마스크 착용 상태 분류
@@ -168,9 +168,9 @@ content:
             icon: fab fa-github
             url: https://github.com/deokgu94/image-classification-level1-23
         quote: >
-          사람에 따른 마스트 이미지로 Mask, Age, Gender별 클래스 분류하는 Competition
+          사람에 따른 마스크 이미지로 Mask, Age, Gender 별 클래스 분류하는 Competition
         description: | # this will include new lines to allow paragraphs
-          - [pytorch-template](https://github.com/victoresque/pytorch-template)을 수정하여 <mark>Stratified k-fold</mark>, <mark>Multi-label</mark> 추가, Base Code로 사용 및 최종 제출<br><br>
+          - [Pytorch-Template](https://github.com/victoresque/pytorch-template)을 수정하여 <mark>Stratified k-fold</mark>, <mark>Multi-Label</mark> 추가, Base Code로 사용 및 최종 제출<br><br>
 
 
   - title: Education # Title for the section
@@ -192,8 +192,9 @@ content:
         quote: >
           MLOps, Wandb, Docker, Kubeflow
         description: | # this will include new lines to allow paragraphs
-          - Deep Learing을 배우면서 리서치보다 엔지니어가 흠미가 있어 참여
-          - Kubeflow, mlflow, bentoML에 대해 이해함<br>
+          - Deep Learning을 배우면서 리서처보다 엔지니어에 흥미
+          - 전체적인 ML 프로세스에 대해 이해하고자 신청
+          - Kubeflow, mlflow, bentoML<br>
 
       - layout: left
         title: <br>네이버 커넥트재단 부스트캠프<br> AI Tech 2기
@@ -208,7 +209,20 @@ content:
           - <mark>Optimization</mark> Competition
           - Product Serving - <mark>MLOps</mark><br><br>
 
-  
+      - layout: left
+        title: <br>한국전자정보통신산업진흥회<br>임베디드 커널 및 객체지향 코드 기법 향상 과정 
+        caption:  2019.12.02 ~ 2019.12.04
+        additional_links:
+          - title: 임베디드 커널 및 객체지향 코드 기법 향상 과정 
+            icon: fab fa-internet-explorer
+            url: https://www.hrd.go.kr/hrdp/co/pcobo/PCOBO0100P.do?tracseId=ABB20193000622635&tracseTme=2&crseTracseSe=C0042&trainstCstmrId=500020050311#undefined
+        quote: >
+          C/C++, ARM Processor, C언어 기반 객체지향, 
+        description: | # this will include new lines to allow paragraphs
+          - C/C++ 코드가 ARM Processor에서 실행되는 과정들을 이해함
+          - C++ 코드를 C언어기반 객체지챵 코드로 구현하는 기법을 습득
+
+        
   - title: Skill & License
     layout: list
     content: # this will include new lines to allow paragraphs
@@ -229,7 +243,7 @@ content:
         # link_text: boringcompany.com
         description: | # this will include new lines to allow paragraphs
           - Jinja2, CAN
-          - Pandas, Numpys, Matplotlib, Wandb
+          - Pandas, Numpy, Matplotlib, Wandb
 
       - layout: left
         title: Language
@@ -247,8 +261,8 @@ content:
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - [CV](https://deokgu94.github.io/) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
-      - 이력서 양식: [참조](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
+      - [CV](doekgu94.github.io) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
+      - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
 # Footer
