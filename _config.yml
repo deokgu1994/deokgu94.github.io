@@ -200,6 +200,10 @@ content:
         title: <br>네이버 커넥트재단 부스트캠프<br> AI Tech 2기
         caption:  2021.08 ~ 2021.12
         link: https://boostcamp.connect.or.kr/
+        additional_links:
+          - title: 부스트캠프 AI Tech 2기 
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/Overview?fbclid=IwAR1UCo--kzq214H7mV_yutrF_FrR_ENmJIdQCUxwOWSl0fLtvlRI3kqjbjA
         quote: >
           Deep Learning, Computer Vision, MLOps
         description: | # this will include new lines to allow paragraphs
@@ -226,24 +230,16 @@ content:
   - title: Skill & License
     layout: list
     content: # this will include new lines to allow paragraphs
-      - layout: top-middle
-        quote: >
-          업무에 사용했던 기술들입니다.
-
-      - layout: left
-        title: MLOps & DevOps
-        # link_text: boringcompany.com
-        description: | # this will include new lines to allow paragraphs
-          - Pytorch
-          - Git, DVC, Kubeflow
-          - Kubernetes, Docker, bentoML
-
       - layout: left
         title: Library
         # link_text: boringcompany.com
         description: | # this will include new lines to allow paragraphs
-          - Jinja2, CAN
-          - Pandas, Numpy, Matplotlib, Wandb
+          - Pytorch
+          - Docker, Kubernetes, Kubeflow, bentoML
+          - Git, DVC
+          - Pandas, Numpy 
+          - Matplotlib, Wandb
+          - Jinja2, CAN, PySide2
 
       - layout: left
         title: Language
