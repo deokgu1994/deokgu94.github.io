@@ -257,7 +257,7 @@ content:
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - [CV](doekgu94.github.io) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
+      - [CV](https://deokgu94.github.io/) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
       - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
