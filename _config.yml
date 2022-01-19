@@ -105,7 +105,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           - DVC를 통해 <mark>데이터 버전 관리</mark>
-          - 모델링
+          - 모델링(yolov5, MMdetection(faster_rcnn))
 
       - layout: left
         title: <br>National Pathology Health Datathon 2021
