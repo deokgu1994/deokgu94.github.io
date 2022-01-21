@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Mingu Kwak
 title: ML Engineer & MLOps Engineer & QA Enginneer
-email: onefence1994@gmail.com
+email: deokgu1994@gmail.com
 website: deokgu94.tistory.com
 
 # Dark Mode (true/false/never)
@@ -190,10 +190,10 @@ content:
         caption:  2021.08 ~ 2021.10
         link: https://inf.run/y1MY
         quote: >
-          MLOps, Wandb, Docker, Kubeflow
+          실무 기반의 AI Production
         description: | # this will include new lines to allow paragraphs
-          - Deep Learning을 배우면서 리서처보다 엔지니어에 흥미
-          - 전체적인 ML 프로세스에 대해 이해하고자 신청
+          - 만약 머신러닝을 실무에 적용한다면 어떻게 진행 되는지 이해함
+          - 머신러닝 프로젝트의 기술들을 이해함
           - Kubeflow, mlflow, bentoML<br>
 
       - layout: left
@@ -205,7 +205,7 @@ content:
             icon: fab fa-github
             url: https://github.com/boostcampaitech2/Overview?fbclid=IwAR1UCo--kzq214H7mV_yutrF_FrR_ENmJIdQCUxwOWSl0fLtvlRI3kqjbjA
         quote: >
-          Deep Learning, Computer Vision, MLOps
+            인공지능, 딥러닝 활용 방법과 AI Production의 End-to-End 교육 프로그램
         description: | # this will include new lines to allow paragraphs
           - <mark>Image Classfication</mark> Competition
           - <mark>Object-Detection</mark> Competition
@@ -221,10 +221,10 @@ content:
             icon: fab fa-internet-explorer
             url: https://www.hrd.go.kr/hrdp/co/pcobo/PCOBO0100P.do?tracseId=ABB20193000622635&tracseTme=2&crseTracseSe=C0042&trainstCstmrId=500020050311#undefined
         quote: >
-          C/C++, ARM Processor, C언어 기반 객체지향, 
+          커널 소스 분석 환경 준비, 커널 소스 분석 등을 수행하는 능력 함양
         description: | # this will include new lines to allow paragraphs
           - C/C++ 코드가 ARM Processor에서 실행되는 과정들을 이해함
-          - C++ 코드를 C언어기반 객체지챵 코드로 구현하는 기법을 습득
+          - C++ 코드를 C언어기반 객체지향 코드로 구현하는 기법을 습득
 
         
   - title: Skill & License
