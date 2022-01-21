@@ -33,7 +33,7 @@ instagram_username: deokgu94
 additional_links:
 - title: Portfolio
   icon: fas fa-paperclip
-  url: https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41
+  url: https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -257,7 +257,7 @@ content:
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - [CV](https://deokgu94.github.io/) & [Portfolio](https://deokgu.notion.site/deokgu/Mingu-kwak-ab947ff547884075991fd7fdbd44ee41)
+      - [CV](https://deokgu94.github.io/) & [Portfolio](https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff)
       - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
