@@ -192,7 +192,7 @@ content:
         quote: >
           실무 기반의 AI Production
         description: | # this will include new lines to allow paragraphs
-          - 만약 머신러닝을 실무에 적용한다면 어떻게 진행 되는지 이해함
+          - 머신러닝을 실무에 적용한다면 어떻게 진행 되는지 이해함
           - 머신러닝 프로젝트의 기술들을 이해함
           - Kubeflow, mlflow, bentoML<br>
 
@@ -211,6 +211,7 @@ content:
           - <mark>Object-Detection</mark> Competition
           - <mark>Semantic Segmentation</mark> Competition
           - <mark>Optimization</mark> Competition
+          
           - Product Serving - <mark>MLOps</mark><br><br>
 
       - layout: left
