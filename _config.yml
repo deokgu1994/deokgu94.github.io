@@ -258,6 +258,7 @@ content:
   - title: More
     layout: text
     content: | # this will include new lines to allow paragraphs
+      - Today I Learned[TIL](https://water-gear-ab4.notion.site/0654cc1f1ce442c98f34103cea771e20?v=7626107d9c0a46e1bfd843789d5b55a6)
       - [CV](https://deokgu94.github.io/) & [Portfolio](https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff)
       - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
