@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Mingu Kwak
-title: ML Engineer & MLOps Engineer & QA Enginneer
+title: ML Engineer & MLOps Engineer
 email: deokgu1994@gmail.com
 website: deokgu94.tistory.com
 
@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
   이제 경험했던 것을 잘 활용해서 더 좋은 프로그램을 만드는 개발자가 되고 싶습니다.
   <br><br>
 
-  저는 AI 경량화, MLOps, Embedded에 관심 있습니다.
+  저는 ML 경량화, MLOps, 자율 주행, Embedded에 관심 있습니다.
 
 content:
   - title: Employment # Title for the section
