@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Mingu Kwak
-title: ML Engineer & MLOps Engineer
+title: Engineer
 email: deokgu1994@gmail.com
-website: deokgu94.tistory.com
+# website: deokgu94.tistory.com
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -30,13 +30,10 @@ instagram_username: deokgu94
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Portfolio
-  icon: fas fa-paperclip
-  url: https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Portfolio
+#   icon: fas fa-paperclip
+#   url: https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -57,14 +54,26 @@ about_content: | # this will include new lines to allow paragraphs
   이제 경험했던 것을 잘 활용해서 더 좋은 프로그램을 만드는 개발자가 되고 싶습니다.
   <br><br>
 
-  저는 ML 경량화, MLOps, 자율 주행, Embedded에 관심 있습니다.
+  관심사 : Unity(3D, ML-Agents), AI(DL, RL), DevOps, Embedded
 
 content:
   - title: Employment # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: <br>(주)시스윈일렉트로닉스
+        title: <br>Fassto
+        link: https://www.fassto.ai/
+        sub_title: Python, SQL, ML/DL, Linux
+        caption: 2022.04 ~
+        # link_text: boringcompany.com
+        quote: >
+          AI Engineer(Architect)
+        description: | # this will include new lines to allow paragraphs
+            - 풀필먼트 서비스에서 인공지능 기술 적용 및 분석<br>
+            - 박스 추천, <mark>수요 예측</mark> , 동선 최적화 개발 및 활용
+
+      - layout: left
+        title: <br>시스윈일렉트로닉스
         link: http://www.syswin.co.kr/html/
         sub_title: Python, C++, Linux
         caption: 2020.5 ~ 2021.08
@@ -75,7 +84,7 @@ content:
             - PCS, IOT Box, AGV 현장 대응 및 사이드 이펙트 분석<br>
 
       - layout: left
-        title: <br>(주)오토소프트
+        title: <br>오토소프트
         link: https://blog.naver.com/autosoft2012
         sub_title:  Python, C/C++, Linux, Embedded<br>CAN, PySide2, MISRA C,
         caption: 2017.10 ~ 2020.03
@@ -94,6 +103,38 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: <br>수요 예측
+        # sub_title: 국립암센터, Nphd2021
+        # link: http://nphd2021.co.kr/
+        caption: 2022.11 ~ 2023.04
+        # additional_links:
+        #   - title: B-Track(세포 병리이미지) Classification
+        #     icon: fab fa-github
+        #     url: https://github.com/deokgu94/data-ton
+        quote: >
+          목적별 수요 예측을 통해 비용산정 및 다른 서비스에 있어 참고가되는 자료 생성
+        description: | # this will include new lines to allow paragraphs
+          - Input Data 설정하기 위해 SQL 및 데이터 분석
+          - 라이브러리 Darts를 통해서 수요예측 진행(Optuna를 통해서 하이퍼 파라미터 각 Data에 맞춤)
+          - Streamlit, Metabase를 통해서 Data View 제공
+
+
+      - layout: left
+        title: <br>박스 추천 수정 및 리팩토링 
+        # sub_title: 국립암센터, Nphd2021
+        # link: http://nphd2021.co.kr/
+        caption: 2022.05 ~ 2022.11
+        # additional_links:
+        #   - title: B-Track(세포 병리이미지) Classification
+        #     icon: fab fa-github
+        #     url: https://github.com/deokgu94/data-ton
+        quote: >
+          출고 되는 제품의 최적 정보에 따른 박스 종류별  최적의 박스 추천
+        description: | # this will include new lines to allow paragraphs
+          - 기존 딥러닝 모델과 3rd Part API 비교 및 수정
+          - Flask → Fast API 수정(BackEnd에 제공)
+
+      - layout: left
         title: <br>Final Project<br>간편한 식단관리 FoodLog
         sub_title: 부스트캠프 AI Tech 2기
         link: https://stages.ai/
@@ -103,7 +144,7 @@ content:
             icon: fab fa-github
             url: https://github.com/boostcampaitech2/final-project-level3-cv-09
         quote: >
-          
+          Yolov5를 사용해서 모델 서빙
         description: | # this will include new lines to allow paragraphs
           - DVC를 통해 <mark>데이터 버전 관리</mark>
           - 모델링(yolov5, MMdetection(faster_rcnn))
@@ -187,18 +228,24 @@ content:
       #     - 딥러닝을 진행하면서 수학에 대한 이해없이 바로 코드를 활용하여 수학적으로 접근해보고자 참여<br>
 
       - layout: left
-        title: <br>인프런<br>머신러닝 엔지니어 실무
-        caption:  2021.08 ~ 2021.10
-        link: https://inf.run/y1MY
+        title: <br>인프런<br>PM을 위한 데이터 리터러시(프로덕트 데이터 분석)
+        caption:  2023.04 ~ <br> <a href="https://www.inflearn.com/course/pm-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A6%AC%ED%84%B0%EB%9F%AC%EC%8B%9C">강의 링크</a> 
         quote: >
-          실무 기반의 AI Production
+          데이터 기반 의사결정과 문제해결에 대한 높은 역량 기르기
         description: | # this will include new lines to allow paragraphs
-          - 머신러닝을 실무에 적용한다면 어떻게 진행 되는지 이해함
-          - 머신러닝 프로젝트의 기술들을 이해함
-          - Kubeflow, mlflow, bentoML<br>
+          - 데이터를 활용하는 지표 정의부터 로그, 실험 설계 및 데이터 문화 등에 대한 생각하는 힘을 키우기 위한 강의
 
       - layout: left
-        title: <br>네이버 커넥트재단 부스트캠프<br> AI Tech 2기
+        title: 인프런<br>유니티 머신러닝 에이전트 완전정복(기초편)
+        caption:  2023.01 ~ 2023.03 <br> <a href="https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B8%B0%EC%B4%88">강의 링크</a>
+        quote: >
+          유니티 머신러닝 에이전트로 배우는 강화학습 환경 제작
+        description: | # this will include new lines to allow paragraphs
+          - 강화학습 이론 및 용어 학습
+          - 유니티 머신러닝 에이전트를 사용하여 강화학습 환경 구현 방법 학습
+
+      - layout: left
+        title: 네이버 커넥트재단 부스트캠프<br> AI Tech 2기
         caption:  2021.08 ~ 2021.12
         link: https://boostcamp.connect.or.kr/
         additional_links:
@@ -216,7 +263,7 @@ content:
           - Product Serving - <mark>MLOps</mark><br><br>
 
       - layout: left
-        title: <br>한국전자정보통신산업진흥회<br>임베디드 커널 및 객체지향 코드 기법 향상 과정 
+        title: 한국전자정보통신산업진흥회<br>임베디드 \커널 및 객체지향 코드 기법 향상 과정 
         caption:  2019.12.02 ~ 2019.12.04
         additional_links:
           - title: 임베디드 커널 및 객체지향 코드 기법 향상 과정 
@@ -247,7 +294,9 @@ content:
         title: Language
         description: | # this will include new lines to allow paragraphs
           - Python
-          - C/C++      
+          - C/C++
+          - C#
+          - SQL, CQL 
           - CAPL
       
       - layout: left
@@ -255,13 +304,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           - ISTQB(CTFL)
 
-
-  - title: More
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - [Today I Learned](https://water-gear-ab4.notion.site/0654cc1f1ce442c98f34103cea771e20?v=7626107d9c0a46e1bfd843789d5b55a6)
-      - [CV](https://deokgu94.github.io/) & [Portfolio](https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff)
-      - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
+  # - title: More
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     - [Today I Learned](https://water-gear-ab4.notion.site/0654cc1f1ce442c98f34103cea771e20?v=7626107d9c0a46e1bfd843789d5b55a6)
+  #     - [CV](https://deokgu94.github.io/) & [Portfolio](https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff)
+  #     - 이력서 양식: [참고](https://jojoldu.github.io/) & [Fork github](https://github.com/sproogen/modern-resume-theme)
 
 
 # Footer
