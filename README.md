@@ -8,7 +8,7 @@ Before you start make sure you have *Ruby* and the gems for *Jekyll* installed l
 
 1. Fork and or clone this repository locally
 2. `cd modern-resume-theme`
-3. `bundle install`
+3. `sudo bundle install`
 4. `bundle exec jekyll serve`
 5. Open your browser to `http://localhost:4000`
 
