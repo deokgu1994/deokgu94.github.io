@@ -7,8 +7,9 @@ version: 2
 
 # Personal info
 name: Mingu Kwak
-title: Engineer
+# title: Engineer
 email: deokgu1994@gmail.com
+phone: 010-9407-8068
 # website: deokgu94.tistory.com
 
 # Dark Mode (true/false/never)
@@ -17,8 +18,8 @@ darkmode: never
 # Social links
 # twitter_username: facespics
 github_username:  deokgu94
-facebook_username: "100076592190487"
-instagram_username: deokgu94
+# facebook_username: "100076592190487"
+# instagram_username: deokgu94
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # flickr_username: jekyll
@@ -30,10 +31,10 @@ instagram_username: deokgu94
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: Portfolio
-#   icon: fas fa-paperclip
-#   url: https://water-gear-ab4.notion.site/MinguKwak-cb5ef7620bb344d1b8b97af0160092ff
+additional_links:
+- title: Portfolio
+  icon: fas fa-paperclip
+  url: https://deokgu94.notion.site/Mingu-Kwak-abb5fa05293644488291314fdd0c0372
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -45,16 +46,19 @@ instagram_username: deokgu94
 # about_title: About Me
 about_profile_image: images/resize.png
 about_content: | # this will include new lines to allow paragraphs
-  계속해서 좋은 코드, 빠르고 정확한 코드를 작성하기 위해 찾고, 배우는 것을 좋아하는 곽민구입니다.
+  더 좋은 결과를 만들기 위해서 계속해서 정보를 찾아다니고, 습득하는 곽민구 입니다.
   <br><br>
 
-  QA로 작성된 코드에서 버그를 찾아가며 탄탄한 검증을 통해 완성되어 가는 코드를 수정하고 배웠습니다.
-  또한, Field Engineer로 사무실에서 미처 생각하지 못했던 것을 현장 경험을 통해 느꼈습니다.
-
-  이제 경험했던 것을 잘 활용해서 더 좋은 프로그램을 만드는 개발자가 되고 싶습니다.
+  이전 QA 경험으로 데이터 분석에서도 데이터의 정확성과 일관성에 대해서 확실한 검증을 통해 정확성을 높입니다.
   <br><br>
 
-  관심사 : Unity(3D, ML-Agents), AI(DL, RL), DevOps, Embedded
+  또한, Field Engineer로써 현장 경험을 통해 문제를 신속하게 파악하는 능력 아울러 해결하는 능력을 향상 시켰습니다.
+  <br><br>
+
+  이러한 경험을 통해서 데이터의 정확성과 일관성을 보장하며, 실제 비즈니스에 활용하는 'Go-getter' 입니다.
+  <br><br>
+
+  관심사 : AI(DL, RL), Unity(3D, ML-Agents), Embedded
 
 content:
   - title: Employment # Title for the section
@@ -103,7 +107,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: <br>수요 예측
+        title: <br>화주사 출고 예측
         # sub_title: 국립암센터, Nphd2021
         # link: http://nphd2021.co.kr/
         caption: 2022.11 ~ 2023.04
@@ -114,7 +118,8 @@ content:
         quote: >
           목적별 수요 예측을 통해 비용산정 및 다른 서비스에 있어 참고가되는 자료 생성
         description: | # this will include new lines to allow paragraphs
-          - Input Data 설정하기 위해 SQL 및 데이터 분석
+          - Input Data 설정하기 위해 SQL Study 및 작성
+          - 각 Feature간 관계 분석 및 시각화를 통해 정당성 파악
           - 라이브러리 Darts를 통해서 수요예측 진행(Optuna를 통해서 하이퍼 파라미터 각 Data에 맞춤)
           - Streamlit, Metabase를 통해서 Data View 제공
 
@@ -133,6 +138,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 기존 딥러닝 모델과 3rd Part API 비교 및 수정
           - Flask → Fast API 수정(BackEnd에 제공)
+          - 분기별 해당 서비스 사용 및 활용 분석을 통해 개선 및 수정 요청
 
       - layout: left
         title: <br>Final Project<br>간편한 식단관리 FoodLog
@@ -235,14 +241,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 데이터를 활용하는 지표 정의부터 로그, 실험 설계 및 데이터 문화 등에 대한 생각하는 힘을 키우기 위한 강의
 
-      - layout: left
-        title: 인프런<br>유니티 머신러닝 에이전트 완전정복(기초편)
-        caption:  2023.01 ~ 2023.03 <br> <a href="https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B8%B0%EC%B4%88">강의 링크</a>
-        quote: >
-          유니티 머신러닝 에이전트로 배우는 강화학습 환경 제작
-        description: | # this will include new lines to allow paragraphs
-          - 강화학습 이론 및 용어 학습
-          - 유니티 머신러닝 에이전트를 사용하여 강화학습 환경 구현 방법 학습
 
       - layout: left
         title: 네이버 커넥트재단 부스트캠프<br> AI Tech 2기
@@ -263,7 +261,7 @@ content:
           - Product Serving - <mark>MLOps</mark><br><br>
 
       - layout: left
-        title: 한국전자정보통신산업진흥회<br>임베디드 \커널 및 객체지향 코드 기법 향상 과정 
+        title: 한국전자정보통신산업진흥회<br>임베디드 커널 및 객체지향 코드 기법 향상 과정 
         caption:  2019.12.02 ~ 2019.12.04
         additional_links:
           - title: 임베디드 커널 및 객체지향 코드 기법 향상 과정 
@@ -289,6 +287,7 @@ content:
           - Pandas, Numpy 
           - Matplotlib, Wandb
           - Jinja2, CAN, PySide2
+          - Streamlit, Metabase
 
       - layout: left
         title: Language
@@ -296,7 +295,7 @@ content:
           - Python
           - C/C++
           - C#
-          - SQL, CQL 
+          - SQL, CQL(Cassandra)
           - CAPL
       
       - layout: left
@@ -325,4 +324,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
- 
+
+
+# wkhtmltopdf http://127.0.0.1:4000/ cv.pdf   
